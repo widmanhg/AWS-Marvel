@@ -1,0 +1,27 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "movies-role",
+        "RoleId": "AROAWOAVSTTDIDMVKE232",
+        "Arn": "arn:aws:iam::442426891462:role/movies-role",
+        "CreateDate": "2025-05-16T04:28:02+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "Allows Lambda functions to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2025-05-16T04:34:23+00:00",
+            "Region": "us-east-1"
+        }
+    }
+}
