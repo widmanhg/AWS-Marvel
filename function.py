@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 from io import StringIO
 
 # Define your OMDB API Key and S3 bucket name directly in the code
-OMDB_API_KEY = "bcf8caa"  # Replace with your actual OMDB API key
-S3_BUCKET_NAME = "marveltest-2209090-widman"  # Replace with your actual S3 bucket name
+OMDB_API_KEY = ""  # Replace with your actual OMDB API key
+S3_BUCKET_NAME = ""  # Replace with your actual S3 bucket name
 
 # Step 1: Scrape Marvel Movie Titles
 def scrape_marvel_movies():
